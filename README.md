@@ -45,5 +45,5 @@ to have graphical notifications.
 ## Guardfile
 
 ```ruby
-guard :unicorn, :daemonized => true, :config_file => "config/unicorn.rb", :pid_file => "tmp/pids/unicorn.pid"
+guard :unicorn, :daemonize => true, :config_file => "config/unicorn.rb", :pid_file => "tmp/pids/unicorn.pid"
 ```
